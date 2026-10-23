@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath> 
+
+using namespace std;
+
+int main() {
+    int x, y;
+
+tekrar:
+    cin >> x;
+
+    if (x == 7777) 
+        goto son; 
+
+    {
+        y = x * x; 
+        cout << y << "\n";
+        goto tekrar;
+    }
+
+son: 
+    cout << "end of program";
+
+    return 0;
+}

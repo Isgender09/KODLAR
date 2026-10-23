@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath> 
+
+using namespace std;
+
+int main() {
+    int a, x, y;
+    
+    cout << "a və x dəyərlərini daxil edin: ";
+    cin >> a >> x; 
+    
+    if (a > 2) {
+        y = x * x;
+        cout << "y = " << y << endl;
+    } else {
+        cout << "a 2-dən böyük deyil (şərt ödənmədi)." << endl;
+    }
+    
+    return 0;
+}

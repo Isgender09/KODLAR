@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+#include <math.h>
+int main() {
+ /*qroup 646.6*/
+ float x,t,z,y,w;
+cin>>x>>t>>z;
+ y=(2*cos(x))/(1./2+pow(sin(t), 2));
+ w=y+(z*z)/(3+(z*z)/5);
+ cout<<y<<"  "<<w;
+}
